@@ -1,7 +1,19 @@
+const webpack = require('webpack')
+
 module.exports = {
   plugins: {
-    'postcss-import': {},
+    'postcss-import': {
+      addDependencyTo: webpack,
+      path: ['./src/styles']
+    },
+    'postcss-mixins': {},
+    'postcss-nested': {},
     'cssnano': {},
-    'postcss-cssnext': {}
+    'postcss-cssnext': {
+      features: {
+        nesting: false,
+        autoprefixer: false
+      }
+    }
   }
 }

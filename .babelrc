@@ -1,1 +1,12 @@
-{ "presets": ["es2015"] }
+{ 
+  "presets": ["env", "react"],
+  "plugins": [
+    "transform-react-jsx",
+    ["react-css-modules", {
+      "context": "./src",
+      "exclude": "node_modules",
+      "webpackHotModuleReloading": true,
+      "generateScopedName": "[name]__[local]___[hash:base64:5]"
+    }]
+  ]
+}

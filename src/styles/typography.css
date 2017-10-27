@@ -1,5 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  line-height: var(--heading-line-height);
+  text-rendering: optimizeLegibility;
+}
+
 h1 {
-  font-size: 4.8rem;
-  font-weight: 700;
-  color: var(--setterColour);
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+p {
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
 }

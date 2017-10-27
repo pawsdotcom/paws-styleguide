@@ -3,7 +3,6 @@
   "rules": {
     "string-quotes": "single",
     "selector-attribute-quotes": "always",
-    "function-url-quotes": "never",
     "font-family-name-quotes": "always-where-required",
     "at-rule-no-vendor-prefix": true,
     "media-feature-name-no-vendor-prefix": true,
@@ -13,6 +12,11 @@
     "max-nesting-depth": 2,
     "selector-max-compound-selectors": 3,
     "color-named": "never",
-    "font-weight-notation": "numeric"
+    "font-weight-notation": "numeric",
+    "at-rule-no-unknown": null,
+    "at-rule-empty-line-before": null,
+    "custom-property-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "no-eol-whitespace": null
   }
 }

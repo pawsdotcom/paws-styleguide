@@ -1,0 +1,8 @@
+@import 'variables';
+
+@define-mixin body-text $color: var(--archangel), $weight: 400 {
+  color: $color;
+  font-weight: $weight;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}

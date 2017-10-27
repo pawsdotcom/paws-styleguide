@@ -1,10 +1,14 @@
 @import 'variables';
+@import 'fonts';
 @import 'normalize';
 @import 'typography';
+@import 'mixins';
 
-html { font-size: 62.5%; }  /* =10px */
-body { font-size: 1.4rem; }
+html {
+  font-size: 62.5%;
+}
 
-.hello {
-    color: var(--setterColour);
+body {
+  color: var(--archangel);
+  font-family: Fabriga, sans-serif;
 }
