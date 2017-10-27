@@ -1,3 +1,27 @@
-.container {
-  background: #ff0;
+@import 'variables';
+
+.header {
+  background-color: var(--setter);
+  color: var(--husky);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+  
+.heading {
+  font-size: 8.4rem;
+  width: 100%;
+  max-width: 960px;
+}
+
+.main {
+  background-color: var(--husky);
+  display: flex;
+  justify-content: center;
+  padding: 5em 3em;
+}
+
+.content {
+  max-width: 960px;
 }

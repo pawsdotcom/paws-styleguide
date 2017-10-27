@@ -4,7 +4,7 @@
     url('../assets/fonts/Fabriga-Light.eot'),
     url('../assets/fonts/Fabriga-Light.woff2') format('woff2'),
     url('../assets/fonts/Fabriga-Light.woff') format('woff');
-  font-weight: 300;
+  font-weight: var(--font-light);
   font-style: normal;
 }
 
@@ -14,7 +14,7 @@
     url('../assets/fonts/Fabriga-Regular.eot'),
     url('../assets/fonts/Fabriga-Regular.woff2') format('woff2'),
     url('../assets/fonts/Fabriga-Regular.woff') format('woff');
-  font-weight: 400;
+  font-weight: var(--font-regular);
   font-style: normal;
 }
 
@@ -24,7 +24,7 @@
     url('../assets/fonts/Fabriga-Italic.eot'),
     url('../assets/fonts/Fabriga-Italic.woff2') format('woff2'),
     url('../assets/fonts/Fabriga-Italic.woff') format('woff');
-  font-weight: 400;
+  font-weight: var(--font-regular);
   font-style: italic;
 }
 
@@ -34,7 +34,7 @@
     url('../assets/fonts/Fabriga-Medium.eot'),
     url('../assets/fonts/Fabriga-Medium.woff2') format('woff2'),
     url('../assets/fonts/Fabriga-Medium.woff') format('woff');
-  font-weight: 500;
+  font-weight: var(--font-medium);
   font-style: normal;
 }
 
@@ -44,7 +44,7 @@
     url('../assets/fonts/Fabriga-Bold.eot'),
     url('../assets/fonts/Fabriga-Bold.woff2') format('woff2'),
     url('../assets/fonts/Fabriga-Bold.woff') format('woff');
-  font-weight: 700;
+  font-weight: var(--font-bold);
   font-style: normal;
 }
 
@@ -54,6 +54,6 @@
     url('../assets/fonts/Fabriga-Black.eot'),
     url('../assets/fonts/Fabriga-Black.woff2') format('woff2'),
     url('../assets/fonts/Fabriga-Black.woff') format('woff');
-  font-weight: 900;
+  font-weight: var(--font-black);
   font-style: normal;
 }
