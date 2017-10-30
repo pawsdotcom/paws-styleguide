@@ -1,0 +1,41 @@
+@import 'variables';
+
+.button {
+  border: 0;
+  border-radius: 0;
+  color: var(--husky);
+  cursor: pointer;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-bold);
+  height: var(--spacing-large);
+  letter-spacing: 0.1em;
+  line-height: var(--spacing-large);
+  outline: none;
+  padding: 0 1.5em;
+  text-transform: uppercase;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.setter {
+  background-color: var(--setter);
+  
+  &:hover {
+    background-color: var(--setter-dark);
+  }
+}
+
+.archangel {
+  background-color: var(--archangel);
+  
+  &:hover {
+    background-color: var(--archangel-dark);
+  }
+}
+
+.corgi {
+  background-color: var(--corgi);
+  
+  &:hover {
+    background-color: var(--corgi-dark);
+  }
+}

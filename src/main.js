@@ -1,11 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import StyleGuide from 'components/StyleGuide/StyleGuide'
+
+import { Button } from 'components/Button/Button'
 
 class App extends React.Component {
   render () {
     return (
-      <StyleGuide />
+      <div>
+        <h3>Buttons</h3>
+        <Button color='archangel'>archangel button</Button><br /><br />
+        <Button color='setter'>setter button</Button><br /><br />
+        <Button color='corgi'>corgi button</Button>
+      </div>
     )
   }
 }

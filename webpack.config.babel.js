@@ -28,6 +28,7 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: {
     styles: 'styles/main.css',
+    'style-guide': 'styles/style-guide.css',
     components: 'main.js'
   },
   output: {
@@ -64,7 +65,7 @@ module.exports = {
       filename: 'index.html',
       title: 'Paws Styleguide',
       template: 'index.ejs',
-      chunks: IS_PRODUCTION ? ['components'] : ['styles', 'components'],
+      chunks: IS_PRODUCTION ? ['components'] : ['styles', 'style-guide', 'components'],
       isProduction: IS_PRODUCTION
     }),
     new ExtractTextPlugin({filename: '[name].css'}),

@@ -29,6 +29,7 @@
   --h4-font-size: 2.2rem;
   --h5-font-size: 1.8rem;
   --body-font-size: 1.6rem;
+  --small-font-size: 1.4rem;
   
   /* Font weights */
   
@@ -37,6 +38,14 @@
   --font-medium: 500;
   --font-bold: 700;
   --font-black: 900;
+  
+  /* Spacing */
+  
+  --spacing-tiny: 8px;
+  --spacing-small: 16px;
+  --spacing-base: 24px;
+  --spacing-large: 48px;
+  --spacing-x-large: 64px;
   
   /* Line heights */
   

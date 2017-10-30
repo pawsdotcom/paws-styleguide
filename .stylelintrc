@@ -18,6 +18,7 @@
     "custom-property-empty-line-before": null,
     "declaration-empty-line-before": null,
     "no-eol-whitespace": null,
-    "selector-pseudo-element-colon-notation": null
+    "selector-pseudo-element-colon-notation": null,
+    "selector-pseudo-class-no-unknown": null
   }
 }

@@ -1,0 +1,35 @@
+@import 'variables';
+
+:global {
+  .styleguide-header {
+    background-color: var(--setter);
+    color: var(--husky);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+    
+  .styleguide-header__heading {
+    font-size: 8.4rem;
+    width: 100%;
+    max-width: 960px;
+  }
+
+  .styleguide-main {
+    background-color: var(--husky);
+    display: flex;
+    justify-content: center;
+    padding: 5em 3em;
+  }
+
+  .styleguide-main__content {
+    max-width: 960px;
+  }
+
+  .styleguide-main__color-swatch {
+    width: 5em;
+    height: 5em;
+    background-color: var(--setter);
+  }
+}
