@@ -4,7 +4,8 @@
   "description": "Styles and components for paws.com",
   "scripts": {
     "start": "webpack-dev-server --content-base dist/ --inline --hot --progress --colors",
-    "build": "webpack -p --progress --colors"
+    "build": "webpack -p --progress --colors",
+    "deploy": "yarn build && ./bin/deploy.sh"
   },
   "devDependencies": {
     "eslint": "^4.9.0",
