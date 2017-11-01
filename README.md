@@ -37,16 +37,18 @@ TODO: Move to Paws Google Cloud setup - Currently using MedicAnimal account
 + When prompted, select the `styleguide-` prefix project from the list of projects.
 + Choose `n` when prompted for Google Compute Engine resources
 
-You should now be set up with `gcloud` and `gsutil`. The last thing to do is to create a configuration file on your machine for this project.
+You should now be set up with `gcloud` and `gsutil`. If these commands are not found you have to manually add the gcloud sdk bin folder to your path in you `~/.bash_profile` - `export PATH="$HOME/google-cloud-sdk/bin:$PATH"`.
+
+The last thing to do is to create a configuration file on your machine for this project.
 
 + If you run `gcloud config configurations list` you should see just `default` or any other projects you have setup. We are going to set up a `styleguide` configuration.
 + Run `gcloud config configurations create styleguide` which will create a `styleguide` config and switch to it.
-+ Open `~/.config/gcloud/configurations/config_styleguide` in your preferred text editor and add the following lines:
++ Open `~/.config/gcloud/configurations/config_styleguide` in your preferred text editor and add the following lines, changing the address to your own:
 
 ```
 [core]
-  account = your.address@medicanimal.com
-  project = styleguide-184611
+account = xxxxxxxxxxx@medicanimal.com
+project = styleguide-184611
 ```
 
 If you run `gcloud config configurations list` you should see the new config.
